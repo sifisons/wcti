@@ -58,7 +58,7 @@ let transporter = nodemailer.createTransport({
 // send mail with defined transport object
 //let info = await transporter.sendMail({
     let mailOptions = { 
-    from: '"WATER CIRCULAR TECH INVESTS (PTY) LTD" <info@wcti.co.za >', 
+    from: '"WATER CIRCULAR TECH INVENTS (PTY) LTD" <info@wcti.co.za >', 
     to: req.body.Email, // list of receivers
 	bcc: 'sifisoproject@gmail.com',
     subject: 'ENQUIRIES', 
