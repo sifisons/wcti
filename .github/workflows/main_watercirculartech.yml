@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'watercirculartech'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2DC3F9C362A44186977EA0D14E11E616 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_69F8B46F5EB7423EBA1D01EF721A5A85 }}
           package: .
